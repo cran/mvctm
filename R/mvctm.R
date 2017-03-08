@@ -10,6 +10,7 @@ if(method!="ls" & method!="mixed" & method!="sign" & method!="rank"){stop("Argum
 if(weight!="observation" & weight!="pair" & weight!="cluster"){stop("Argument weight must be one of: observation, pair, cluster")}
 if(!is.data.frame(data)){stop("Argument data must be a data frame")}
 if(!is.vector(cluster)){stop("Argument cluster must be a vector")}
+npermut=ceiling(npermut)
 if(!(npermut>=1)){stop("Argument npermut must be >= 1")}
 
 clustername=cluster
@@ -108,16 +109,16 @@ else if(nlevel==4)
 
 message1=NA
 message2=NA
-if(pval==99)		{
-	message1="The maximum eigenvalue of the dependency matrix computed with the original data is not positive. The permutation test was not performed. The reported p-value is 1. You could try another method or model."
-	pval=1
+if(pval[1]==99)		{
+	print("The maximum eigenvalue of the dependency matrix computed with the original data is not positive. The permutation test was not performed. The reported p-value is 1. You could try another method or model.")
+	pval[1]=1	
 			}
 if(method=="sign" & p==1)	{
-	message2="Using method=\"sign\" is not recommended with a univariate response. The test might be liberal."
+	print("Using method=\"sign\" is not recommended with a univariate response. The test might be liberal.")
 				}
 
-out=list(pval,messages=list(message1,message2),match.call())
-names(out)=c("pvalue","messages","call")
+out=list(pval[1],pval[2])
+names(out)=c("pvalue","statistic")
 
 out
 

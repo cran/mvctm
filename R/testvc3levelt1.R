@@ -30,7 +30,7 @@ maxo=max(eig$values)
 if(maxo<=0)
 	{
 	pvalmax=99
-	return(pvalmax)
+	return(c(pvalmax,maxo))
 	}
 
 for(i in 1:npermut)
@@ -44,6 +44,6 @@ for(i in 1:npermut)
 	pvalmax=pvalmax+(maxperm>maxo)
 	}
 
-pvalmax/npermut
+c(pvalmax/npermut,maxo)
 
 }

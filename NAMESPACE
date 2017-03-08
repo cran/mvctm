@@ -1,9 +1,18 @@
 exportPattern("^[[:alpha:]]+")
+
+export(mvctm,permcluster)
+
 import(Rfit)
 import(quantreg)
 import(MNM)
 import(nlme)
 import(Formula)
+import(SpatialNP)
+
+importFrom("stats", "formula", "lm", "median", "model.frame",
+             "residuals")
+importFrom("utils", "relist")
+
 
 
 

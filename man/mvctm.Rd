@@ -43,20 +43,18 @@ Whether or not we want to use the affine-equivariant version of the tests. This 
 With \code{method="ls"}, the fixed effects are estimated by ordinary least-squares. Then the test is performed on the residuals from this fit. With \code{method="mixed"}, the fixed effects are estimated with a linear mixed model. Then the test is performed on the marginal (population) residuals from this fit. With \code{method="rank"}, a rank-based method is used to estimate the fixed effects. Then the test is performed on the ranks of the residuals from this fit. Finally, with \code{method="sign"}, a sign-based method is used to estimate the fixed effects. Then the test is performed on the signs of the residuals from this fit. For multivariate data, spatial ranks and signs are used.
 
 With a univariate response, \code{method="sign"} is not recommended because
-the test might be liberal. In such a case, a warning message will appear in the element \code{messages} of the output.
+the test might be liberal. 
 
 With, \code{weight="pair"},  observations in larger clusters at the level \code{leveltested} will have more weights. With, \code{weight="cluster"}, the same weight is given to each cluster at the level \code{leveltested}. As a compromise between these two, the default \code{weight="observation"}  gives an equal weight to each individual observation, with respect to the clusters at level \code{leveltested}.
 
 }
 \value{
-A list with the following three elements:
+A list with the following two elements:
   \item{pvalue}{The p-value of the test.}
-  \item{messages}{Possibly some messages.}
-    \item{call}{The function call.}
-
+  \item{statistic}{The value of the test statistic computed on the original data.}
 }
 \references{
-Larocque, D., Nevalainen, J. and Oja, H. (2014). Multivariate Variance Components Tests for Multilevel Data: The mvctm package. Les Cahiers du GERAD G-2014-31.
+Larocque, D., Nevalainen, J. and Oja, H. (2017). Multivariate Variance Components Tests for Multilevel Data: The mvctm package. Les Cahiers du GERAD G-2017-16.
 }
 \author{
 Denis Larocque \code{<denis.larocque@hec.ca>}

@@ -11,8 +11,8 @@ Permutation tests for variance components for 2-level, 3-level and 4-level data 
 \tabular{ll}{
 Package: \tab mvctm\cr
 Type: \tab Package\cr
-Version: \tab 1.0\cr
-Date: \tab 2014-05-07\cr
+Version: \tab 1.1\cr
+Date: \tab 2017-03-08\cr
 }
 }
 \author{
@@ -22,7 +22,7 @@ Maintainer: Denis Larocque \code{<denis.larocque@hec.ca>}
 }
 
 \references{
-Larocque, D., Nevalainen, J. and Oja, H. (2014). Multivariate Variance Components Tests for Multilevel Data: The mvctm package. Les Cahiers du GERAD G-2014-31.
+Larocque, D., Nevalainen, J. and Oja, H. (2017). Multivariate Variance Components Tests for Multilevel Data: The mvctm package. Les Cahiers du GERAD G-2017-16.
 }
 
 
