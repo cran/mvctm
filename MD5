@@ -1,4 +1,4 @@
-fff5614ace354cc1cf1ff46b1b062d1f *DESCRIPTION
+f8eca1a87fc1ed74e3f11b984ef1758a *DESCRIPTION
 8928781cb86bafc9af981341609190ad *NAMESPACE
 30d7920a6cd80ca18f28d9cdb584685d *R/mvctm.R
 fdbc68237b858a2a06e413106bd7ed50 *R/permcluster.R
@@ -22,9 +22,9 @@ e1589ee79b0da8ac9799b93dfe35c222 *R/testvc4levelt2.R
 076cc42bd41d561a229576a62d131001 *R/testvc4levelt3.R
 3cf2457e8ab971b4806369fb8c436e10 *R/ystand.R
 9a9a33eada090a6cff84da8f6c64db7d *data/toydata.rda
-3112f6f8f9d49d5f90799805a93d8a69 *man/mvctm-package.Rd
-c44b19b64a893cdca033c9acbf2c24ed *man/mvctm.Rd
-26d3f117e8a64ffbcb4443ace548ce20 *man/permcluster.Rd
+44717ab698151a3b522af68fc01039b1 *man/mvctm-package.Rd
+6b636b93ad348642df61935f8e159dd2 *man/mvctm.Rd
+1be2681689855664918bba20d3a65fec *man/permcluster.Rd
 c81c3bc3ad05229c751db7b05b55fbc6 *man/permute3levelt1.Rd
 80ad076fa12e1cfabdb30a12b98dc243 *man/permute3levelt2.Rd
 1e905f20d1db0fbc4b58e4500e1aa0b6 *man/permute4levelt1.Rd

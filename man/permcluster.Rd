@@ -29,7 +29,7 @@ This is a utility function that allows to perform a permutation test with anothe
 A data frame that contains the original variables plus 1, 2 or 3 new columns. For 2-level data, a single new column called \code{clusperm1} contains the permuted indices for the level 1 cluster. For 3-level data, two new columns called \code{clusperm1} and \code{clusperm2} contain the permuted indices for the level 1 and level 2 clusters, respectively. For 4-level data, three new columns called \code{clusperm1}, \code{clusperm2} and \code{clusperm3} contain the permuted indices for the level 1, level 2, and level 3 clusters, respectively.
 }
 \references{
-Larocque, D., Nevalainen, J. and Oja, H. (2017). Multivariate Variance Components Tests for Multilevel Data: The mvctm package. Les Cahiers du GERAD G-2017-16.
+Larocque, D., Nevalainen, J. and Oja, H. (2018). Multivariate Variance Components Tests for Multilevel Data. Les Cahiers du GERAD G-2018-58.
 }
 \author{
 Denis Larocque \code{<denis.larocque@hec.ca>}

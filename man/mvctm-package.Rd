@@ -22,7 +22,7 @@ Maintainer: Denis Larocque \code{<denis.larocque@hec.ca>}
 }
 
 \references{
-Larocque, D., Nevalainen, J. and Oja, H. (2017). Multivariate Variance Components Tests for Multilevel Data: The mvctm package. Les Cahiers du GERAD G-2017-16.
+Larocque, D., Nevalainen, J. and Oja, H. (2018). Multivariate Variance Components Tests for Multilevel Data. Les Cahiers du GERAD G-2018-58.
 }
 
 

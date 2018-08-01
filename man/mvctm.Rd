@@ -54,7 +54,7 @@ A list with the following two elements:
   \item{statistic}{The value of the test statistic computed on the original data.}
 }
 \references{
-Larocque, D., Nevalainen, J. and Oja, H. (2017). Multivariate Variance Components Tests for Multilevel Data: The mvctm package. Les Cahiers du GERAD G-2017-16.
+Larocque, D., Nevalainen, J. and Oja, H. (2018). Multivariate Variance Components Tests for Multilevel Data. Les Cahiers du GERAD G-2018-58.
 }
 \author{
 Denis Larocque \code{<denis.larocque@hec.ca>}
